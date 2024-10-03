@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mitra Automation</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+  </head>
+
+  <body>
+    <!--Navbar Start-->
+    <nav class="navbar">
+      <a href="#"
+        ><img src="logomitra.png" alt="image" class="navbar-logo" />
+      </a>
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#clients">Clients</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="navbar-extra">
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+    <!--Navbar End-->
+    <!--Hero Section start-->
+    <section class="hero" id="home">
+      <div class="mask-container">
+      <main class="content">
+        <h1>MITRA AUTOMATION</h1>
+        <p>Your Partner In Automation</p>
+       <!-- <a href="#" class="cta">GET START</a> -->
+      </main>
+    </div>
+    </section>
+    <!--Hero Section End-->
+    <!--About Start-->
+    <section id="about" class="about">
+      <div class="judul">
+      <h2><span>About</span> Us</h2>
+    </div>
+    <div class="body-about">
+      <img src="img/about1.jpg" alt="" class="gambarabout">
+      <div class="contentabout">
+        <h3>PT. Mitra Automation</h3>
+        <p>PT. Mitra Automation, founded in 2009, in response to the needs 
+          of learning and integration of automation systems in Indonesia. 
+          As already known together, the era of globalization has forced 
+          industries worldwide to improve production efficiency, improve 
+          production quality, and reduce environmental pollution in order
+          to compete in global markets and to meet international standards. 
+          <span id="dots">...</span><span id="more">
+          Era of globalization has also brought a major challenge for the 
+          industries in Indonesia to improve product quality so as to 
+          compete with imported products, as well as to international quality 
+          standards to qualify. Industrial automation can provide assurance 
+          to the industry in improving efficiency, maintain quality production, 
+          and can reduce levels of environmental pollution.
+          With experts who are experienced, both in providing training on 
+          automation systems and in the implementation & integration of .
+          automation systems, we try our best to help solve problems faced 
+          by customers.</span>
+        </p>
+        <br>
+        <button onclick="read_more_less()" class="btn btn-sucsess" id="mybtn">Read More</button>
+      </div>
+  </div>
+    </section>
+    <!--About end-->
+  <!--Services Start-->  
+    <section id="services" class="services">
+      <div class="judul">
+        <h2><span>Our</span> Services</h2>
+      </div>
+      <div class="body-services">
+        <div class="container-services1">
+          <i class="fas fa-users-cog"></i>
+          <div class="text-box-services">
+            <div class="head-box">
+            <h3>System Integrator</h3>
+            <p>We are ready to implement automation systems in Indonesia</p>
+          </div>
+          </div>
+        </div>
+        <div class="container-services2">
+          <i class="fas fa-chalkboard-teacher"></i>
+          <div class="text-box-services2">
+          <div class="head-box2">
+            <h3>Trainer</h3>
+            <p>We are ready to provide training related to the automation system such as: Motor Management, Power Monitoring, PLC, HMI, and SCADA</p>
+          </div>
+        </div>
+        </div>
+
+      </div>
+
+    </section>
+
+  <!--Services End--> 
+    <!--Client Start--> 
+    <section id="clients" class="clients">
+      <div class="judul">
+        <h2><span>Our</span> Clients</h2>
+      </div>
+      <div class="tab-nav-clients">
+        <div class="tab-navigation-clients">
+          <i class="uil uil-angle-left left-btn"></i>
+          <ul class="tab-menu-clients">
+            <button class="tab-btn">Water Treatment</button>
+            <button class="tab-btn">Transportation</button>
+            <button class="tab-btn">Automotive</button>
+            <button class="tab-btn">Aerospace</button>
+            <button class="tab-btn">Mining & Cement</button>
+            <button class="tab-btn">Food</button>
+            <button class="tab-btn">Education</button>
+            <button class="tab-btn">Oil & Gas</button>
+          </ul>
+          <i class="uil uil-angle-right right-btn"></i>
+        </div>
+      </div>
+
+      <div class="tab-content">
+        <div class="container_clients">
+          <h2>Water Treatment</h2>
+          <div class="posisi-clients">
+          <div class="box-clients">
+              <div class="logo-clients">
+              <img src="img/clients/BCU.png" class="logo-clients1">
+              </div>
+              <div class="content-clients">
+              <h3>BCU</h3>
+              <p>In 1984 PT Bumi Cahaya Unggul decided to focus on the field of industrial pumps with a specialization in engineering design and installation.</p>
+              </div>
+          </div>
+          <div class="box-clients">
+            <div class="logo-clients">
+            <img src="img/clients/EJP.png" class="logo-clients1">
+            </div>
+            <div class="content-clients">
+            <h3>EJP</h3>
+            <p>PT. Epsindo Jaya Pratama (EJP) is a well established Indonesia company experience in producing Oil Well Submersible Pumps.</p>
+            </div>
+          </div>
+          <div class="box-clients">
+            <div class="logo-clients">
+            <img src="img/clients/Tirta.png" class="logo-clients1">
+            </div>
+            <div class="content-clients">
+            <h3>Tirta Khatulistiwa</h3>
+            <p>PT. Epsindo Jaya Pratama (EJP) is a well established Indonesia company experience in producing Oil Well Submersible Pumps.</p>
+            </div>
+          </div>
+          <div class="box-clients">
+            <div class="logo-clients">
+            <img src="img/clients/Penta.png" class="logo-clients1">
+            </div>
+            <div class="content-clients">
+            <h3>Penta Power</h3>
+            <p>PT. Penta Power Indonesia is a professional Heat Pump company with committed sales & marketing and service.</p>
+            </div>
+          </div>
+          <div class="box-clients">
+            <div class="logo-clients">
+            <img src="img/clients/APICAL.png" class="logo-clients1">
+            </div>
+            <div class="content-clients">
+            <h3>Apical</h3>
+            <p>Apical is a leading vegetable oil processor with an expanding global footprint.</p>
+            </div>
+          </div>
+          <div class="box-clients">
+            <div class="logo-clients">
+            <img src="img/clients/FLYGT.png" class="logo-clients1">
+            </div>
+            <div class="content-clients">
+            <h3>PT Tunggal Teknik Alam Raya</h3>
+            <p>PT Tunggal Teknik Alam Raya is likely a company associated with Xylem, a global water technology company.</p>
+            </div>
+          </div>
+        </div>
+        </div>
+
+        <div class="container_clients">
+          <h2>Transportation</h2>
+          <div class="posisi-clients">
+          <div class="box-clients">
+            <div class="logo-clients">
+              <img src="img/clients/Angkasa1.png" class="logo-clients1">
+            </div>
+            <div class="content-clients">
+              <h3>PT. Angkasa Pura I</h3>
+              <p>PT. Angkasa Pura I is a state-owned airport management company responsible for managing and operating several airports in eastern Indonesia, including Ngurah Rai International Airport in Bali.</p>
+            </div>
+          </div>
+          <div class="box-clients">
+            <div class="logo-clients">
+            <img src="img/clients/Angkasa2.png" class="logo-clients1">
+          </div>
+          <div class="content-clients">
+            <h3>PT. Angkasa Pura II</h3>
+            <p>PT. Angkasa Pura II is a state-owned airport management company responsible for managing and operating several airports in western Indonesia, including Soekarno-Hatta International Airport in Jakarta.</p>
+          </div>
+          </div>
+          <div class="box-clients">
+            <div class="logo-clients">
+            <img src="img/clients/IPC.png" class="logo-clients1">
+          </div>
+          <div class="content-clients">
+            <h3>PT. Pelindo II</h3>
+            <p>PT. Pelindo II, also known as Pelabuhan Indonesia II (Persero), is a state-owned port management company.</p>
+          </div>
+          </div>
+          </div>
+        </div>
+
+        <div class="container_clients">
+          <h2>Automotive</h2>
+          <div class="posisi-clients">
+          <div class="box-clients">
+            <div class="logo-clients">
+              <img src="img/clients/Akebono.png" class="logo-clients1">
+            </div>
+            <div class="content-clients">
+              <h3>PT. Akebono Brake</h3>
+              <p>The company is engaged in the manufacturing and distribution of automotive brake systems and related components.</p>
+            </div>
+          </div>
+          <div class="box-clients">
+            <div class="logo-clients">
+            <img src="img/clients/AHM.png" class="logo-clients1">
+          </div>
+          <div class="content-clients">
+            <h3>AHM</h3>
+            <p>PT. Astra Honda Motor the company is involved in the manufacturing, assembly, and distribution of Honda motorcycles and scooters for the Indonesian market. </p>
+          </div>
+          </div>
+          <div class="box-clients">
+            <div class="logo-clients">
+            <img src="img/clients/IGP.png" class="logo-clients1">
+          </div>
+          <div class="content-clients">
+            <h3>IGP</h3>
+            <p>PT. Inti Ganda Persada is an Indonesian company with a focus on the provision of security and protection services. </p>
+          </div>
+          </div>
+          </div>
+        </div>
+
+        <div class="container_clients">
+          <h2>Aerospace</h2>
+          <div class="posisi-clients">
+          <div class="box-clients">
+            <div class="logo-clients">
+              <img src="img/clients/Collins.png" class="logo-clients1">
+            </div>
+            <div class="content-clients">
+              <h3>Collins Aerospace</h3>
+              <p>UTC Collins Aerospace is likely a branch or division of Collins Aerospace, which was formerly a subsidiary of United Technologies Corporation (UTC).</p>
+            </div>
+          </div>
+          <div class="box-clients">
+            <div class="logo-clients">
+            <img src="img/clients/Pindad.png" class="logo-clients1">
+          </div>
+            <div class="content-clients">
+              <h3>PT. Pindad (Persero)</h3>
+              <p>PT. Pindad (Persero) is an Indonesian state-owned company that primarily operates in the defense industry.</p>
+              </div>
+          </div>
+          </div>
+          </div>
+
+          <div class="container_clients">
+            <h2>Mining & Cement</h2>
+            <div class="posisi-clients">
+            <div class="box-clients">
+              <div class="logo-clients">
+              <img src="img/clients/Antam.png" class="logo-clients1">
+            </div>
+              <div class="content-clients">
+                <h3>PT. Aneka Tambang Tbk</h3>
+                <p>PT. Aneka Tambang Tbk, abbreviated as Antam, is an Indonesian state-owned mining and metals company.</p>
+                </div>
+            </div>
+            <div class="box-clients">
+              <div class="logo-clients">
+              <img src="img/clients/Bukit Asam.png" class="logo-clients1">
+            </div>
+              <div class="content-clients">
+                <h3>PT. Bukit Asam (Persero)</h3>
+                <p>PT. Bukit Asam (Persero) Tbk, commonly known as Bukit Asam, is an Indonesian state-owned coal mining company.</p>
+                </div>
+            </div>
+            <div class="box-clients">
+              <div class="logo-clients">
+              <img src="img/clients/Clariant.png" class="logo-clients1">
+            </div>
+              <div class="content-clients">
+                <h3>PT. Clariant Adsorbent</h3>
+                <p>PT. Clariant Adsorbent Indonesia is likely a subsidiary or branch of Clariant, a Swiss multinational specialty chemicals company.</p>
+                </div>
+            </div>
+            <div class="box-clients">
+              <div class="logo-clients">
+              <img src="img/clients/TigaRoda.png" class="logo-clients1">
+            </div>
+              <div class="content-clients">
+                <h3>PT. Indocement</h3>
+                <p>PT. Indocement Tunggal Prakarsa Tbk is one of the largest cement producers in Indonesia. </p>
+                </div>
+            </div>
+            <div class="box-clients">
+              <div class="logo-clients">
+              <img src="img/clients/KBK.png" class="logo-clients1">
+            </div>
+              <div class="content-clients">
+                <h3>PT. KBK</h3>
+                <p>PT. Kasongan Bumi Kencana is a mining company operating in Indonesia.</p>
+                </div>
+            </div>
+            <div class="box-clients">
+              <div class="logo-clients">
+              <img src="img/clients/sEMEN bIMA.png" class="logo-clients1">
+            </div>
+              <div class="content-clients">
+                <h3>PT STA</h3>
+                <p>PT Sinar Tambang Arthalestari Semen is here to answer what consumers have been looking for, namely cement with premium quality that is easy to use for various applications. </p>
+                </div>
+            </div>
+            </div>
+            </div>
+
+      </div>
+      </section>
+    <!--Client End--> 
+    <!--Contact Us--> 
+    <section id="contact" class="contact">
+      <div class="judul">
+        <h2><span>Contact</span> Us</h2>
+      </div>
+      <div class="body-contact">
+
+      </div>
+    </section>
+    <!--Contact End--> 
+
+    <!--feather icons-->
+    <script>
+      feather.replace();
+    </script>
+
+    <!--My Javascript-->
+    <script src="js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.js" integrity="sha512-8Z5++K1rB3U+USaLKG6oO8uWWBhdYsM3hmdirnOEWp8h2B1aOikj5zBzlXs8QOrvY9OxEnD2QDkbSKKpfqcIWw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+      function read_more_less(){
+        var dots =document.getElementById('dots');
+        var moretext =document.getElementById('more');
+        var mybtn =document.getElementById('mybtn');
+
+        if(dots.style.display === 'none') {
+          dots.style.display = 'inline';
+          moretext.style.display = 'none';
+          mybtn.innerHTML = "Read More";
+        }
+        else {
+          dots.style.display = 'none';
+          moretext.style.display = 'inline';
+          mybtn.innerHTML = "Read Less"; 
+        }
+      }
+    </script>
+  </body>
+</html>
